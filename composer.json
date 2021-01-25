@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Musliadi\\FirstPackage\\": "src"
+            "Musliadi\\FirstPackage\\FirstPackageClass\\": "src"
         }
     },
     "autoload-dev": {
