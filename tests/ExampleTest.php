@@ -2,8 +2,8 @@
 
 namespace Musliadi\FirstPackage\Tests;
 
-use PHPUnit\Framework\TestCase;
 use Musliadi\FirstPackage\FirstPackageClass;
+use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
@@ -12,6 +12,6 @@ class ExampleTest extends TestCase
     {
         $lbs = FirstPackageClass::fromKilograms(100)->toLbs();
 
-       	$this->assertEquals(220.4623, $lbs);
+        $this->assertEquals(220.4623, $lbs);
     }
 }
