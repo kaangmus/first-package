@@ -1,22 +1,22 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "musliadi/first-package",
+    "description": "first-package",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "musliadi",
+        "first-package"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/musliadi/first-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_homepage",
+            "name": "musliadi",
+            "email": "hello.musliadi@gmail.com",
+            "homepage": "https://musliadi.net",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.3|^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.17",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Musliadi\\FirstPackage\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Musliadi\\FirstPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,11 +47,11 @@
     "funding": [
         {
             "type": "github",
-            "url": "https://github.com/sponsors/:vendor_name"
+            "url": "https://github.com/sponsors/musliadi"
         },
         {
             "type": "other",
-            "url": ":author_homepage"
+            "url": "https://musliadi.net"
         }
     ]
 }
